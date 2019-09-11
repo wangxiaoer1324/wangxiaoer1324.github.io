@@ -1,0 +1,82 @@
+body,div,img,dl,dt,dt,ul,li,p,h1,h2,h3,h4,h5,h6,input{ margin:0; padding:0;}
+ul,li{ list-style:none}
+body{ font-size:12px; margin:0; padding:0; }
+a{text-decoration:none; color:#333333}
+a:hover,a:active{ text-decoration: underline; color:#FF0000;}
+img{border:0;}
+.clear{clear:both;margin:0;padding:0;height:0;font-size:0}
+
+/*Í·²¿*/
+.toolbar{background:#2D5A77;height:41px;background:#FCFCFC; border-bottom:solid 1px #EDEEF0;  border-top:solid 3px #2389F8;position:fixed;z-index:990;margin-bottom:6px;left:0;top:0;width:100%;_position:absolute;_top:expression(documentElement.scrollTop);}
+#site_nav{width:1000px;height:41px;margin:0 auto;}
+#site_nav_left{ width:300px;height:41px; float:left;color:#CCCCCC;}
+.site_p1{padding-left:18px;height:41px; line-height:41px; float: left;}
+
+#site_nav_right{ width:600px; height:41px; line-height:41px;float:right; text-align:right; color:#CCCCCC;}
+#site_nav_right a{padding-left:10px; padding-right:10px;}
+
+#site_nav_left2{ width:850px;height:41px; float:left; }
+.site_p2{padding-left:18px;height:41px; line-height:41px; float: left;color:#CCCCCC;}
+.site_p2 a{padding-left:5px; padding-right:5px; color:#333333;}
+
+#site_nav_right2{ width:120px; height:41px; line-height:41px;float:right; text-align:right; color:#CCCCCC;}
+#site_nav_right2 a{padding-left:10px; padding-right:10px;}
+
+.main_ad1{width:1000px;height:90px;margin:0 auto;padding-top:55px; padding-bottom:10px; overflow:hidden; text-align:center;}
+
+
+.top{ width:1000px; height:55px; margin:0 auto; overflow:hidden; clear:both;}
+.logo{ width:200px; float:left;}
+
+.so{width:263px;height:35px; padding-top:5px;float:right;}
+.search_input{width:198px; height:16px;line-height:16px;float:left;border:0; padding:4px 0 4px 8px; margin-top:7px; color:#999; border:1px solid #DCDCDC; border-right-style:none;outline: none;}
+.search_botton{float:left;height:26px;overflow:hidden;width:50px;margin:7px 5px 0 0;cursor:pointer;}
+
+/*²Ëµ¥*/
+.menu{ width:1000px; height:35px; margin:0 auto; background:url(../images/menu_bg.png) repeat-x;overflow:hidden; clear:both;}
+.menu_t{float:left; width:1000px; height:35px;}
+.menu_t ul {width:1000px; float:left;}
+.menu_t ul li{float:left;display: block; background:url(../images/menu_li.png) no-repeat right center; text-align:center;}
+.menu_t ul li a{ display:block; float:left; line-height:35px; padding-left:15px; padding-right:15px; padding-top:0px; padding-bottom:0px; color:#FFFFFF;font-size:14px; text-decoration:none}
+.menu_t ul li a:hover,.menu_t ul .cu{ color:#FFF; background:#1873DE;text-decoration:none;}
+
+
+
+
+
+/*footer*/
+.footer .lx li.add,.footer .lx li.tel,.footer .lx li.mail{background:url(../images/bg_sprite.png) no-repeat 0px 0px;}
+.mr20{ margin-right:30px; _margin-right:20px;}
+.layout_nav {width:1000px;height:100%; margin:0 auto;overflow:hidden;background:#345b8f;}
+.layoutLeft,.layoutMiddle{float:left; width:313px;}
+.layoutRight{float:right; width:313px;}
+.footer{width:100%;background:#345b8f;}
+.footer h5{font-size:14px; font-weight:bold;height:70px;line-height:70px; color:#fff; border-bottom:1px #173f75 solid;}
+.footer .lx{border-top:1px #4a7dc1 solid;padding:20px;line-height:28px;color:#fff;}
+.footer .lx li{line-height:21px;height:45px; padding-left:50px; color:#fff; vertical-align:middle}
+.footer .lx li.add{ background-position:-384px -11px;padding-top:10px;}
+.footer .lx li.tel{background-position:-384px -85px;}
+.footer .lx li.mail{margin-top:10px; background-position:-384px -159px;line-height:40px;}
+.footer .lx_link{width:300px; padding-left:10px;}
+.footer .lx_link li{float:left; display:block;width:95px; height:27px;line-height:27px;}
+.footer .lx_link li a{color:#fff;}
+.footer .lx_link li a:hover{color:#fff;}
+.footer_di{ text-align:center;height:60px; color:#fff;line-height:60px;background:#345b8f;}
+.footer .footer_line{margin:0 auto; width:1000px;;border-top:1px #173f75 solid; border-bottom:1px #4a7dc1 solid;padding:0px;height:0px;}
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+<script language="javascript" src="/ad.js"></script>

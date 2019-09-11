@@ -1,0 +1,1 @@
+document.writeln("<div style=\"width:100%; padding:4px 0; text-align:center; line-height:20px; position:static; left:0px; bottom:0px;\"><a rel=\"external nofollow\" target=\"_blank\" href=\"http://wpa.qq.com/msgrd?v=3&uin=1941135141&site=qq&menu=yes\"><img src=\"http://b.qq.com/static/images/wp/wp_3.gif\" border=\"0\" alt=\"µã»÷×ÉÑ¯\"></a></div>");
